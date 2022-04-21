@@ -1,0 +1,19 @@
+{
+   "dependencies": {
+      "body-parser": "latest",
+      "compression": "latest",
+      "connect-mongo": "latest",
+      "cookie-parser": "latest",
+      "cookie-session": "latest",
+      "ejs": "latest",
+      "express": "latest",
+      "fs": "latest",
+      "http": "latest",
+      "https": "latest",
+      "morgan": "latest",
+      "multer": "latest",
+      "path": "latest"
+   },
+   "main": "app.js",
+   "name": "uploader"
+}
