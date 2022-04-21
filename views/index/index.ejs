@@ -1,0 +1,34 @@
+
+  <%- include('include/header') %>
+
+
+<div class="theUploaderCenter">
+
+	<div class="theUploaderUploadBoxFrame">
+    
+		<span class="theUploaderUploadBoxSpan">Click or Drag and Drop</span>
+
+		<div class="theUploaderUploadBox"></div>
+
+	</div>
+
+	<div class="theUploaderResult"></div>
+    
+    <div class="theUploaderInfo"></div>
+  
+	<form enctype="multipart/form-data" method="post" onsubmit="return false;">
+
+	<input id="theUploaderFiles" style="display:none" type="file" name="files" multiple>
+  
+	<button type="button" class="theUploaderSubmitButton" disabled>Upload</button>
+
+	</form>
+  
+</div>
+
+
+
+
+</body>
+
+</html>
